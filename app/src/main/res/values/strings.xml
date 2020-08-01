@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">diabeticsPredictor</string>
+    <string name="button_text">Predictor</string>
+    <string name="button2_text">Informations</string>
+    <string name="textview1_text">To get the prediction click below</string>
+    <string name="textview2_text">Here the inputs will be taken</string>
+    <string name="textview3_text">To know helpful details about diabetics press the button below</string>
+    <string name="textview4_text">Information about foods, meds,FAQ would be here!</string>
+
+
+</resources>
