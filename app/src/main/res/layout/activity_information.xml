@@ -5,12 +5,51 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".InformationActivity"
-    android:padding="50dp">
+    android:padding="50dp"
+    android:gravity="center"
+    android:orientation="vertical">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/textview4_text"
         android:textStyle="italic"
+        android:textSize="20dp"
+        />
+    <Button
+        android:id="@+id/Button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button3_text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="2dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview5_text"
+        android:textStyle="italic"
         android:textSize="20dp"/>
+    <Button
+        android:id="@+id/Button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button4_text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="2dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview6_text"
+        android:textStyle="italic"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/Button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button5_text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="2dp"/>
 
 </LinearLayout>
