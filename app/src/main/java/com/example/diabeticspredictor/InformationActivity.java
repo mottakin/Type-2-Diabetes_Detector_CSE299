@@ -22,5 +22,22 @@ public class InformationActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        button = (Button) findViewById(R.id.Button4);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(InformationActivity.this, MedicinesActivity.class);
+                startActivity(intent);
+            }
+        });
+        button = (Button) findViewById(R.id.Button5);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(InformationActivity.this, FAQActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
