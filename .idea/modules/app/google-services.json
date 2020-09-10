@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "988643991990",
+    "firebase_url": "https://diabeticspredictor.firebaseio.com",
+    "project_id": "diabeticspredictor",
+    "storage_bucket": "diabeticspredictor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988643991990:android:3f040181d21682236ea117",
+        "android_client_info": {
+          "package_name": "com.example.diabeticspredictor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988643991990-p52a5gvqnfde9c6dcm6e38h53al5smqo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.diabeticspredictor",
+            "certificate_hash": "3c8f2647b251edd1d53bf88d32047722adf20ea3"
+          }
+        },
+        {
+          "client_id": "988643991990-booc8lomadrb2jtkhk5gflc46o28c57p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlKXIDf5Rttww3pZu8oCM2_7a0uTsXBOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988643991990-booc8lomadrb2jtkhk5gflc46o28c57p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

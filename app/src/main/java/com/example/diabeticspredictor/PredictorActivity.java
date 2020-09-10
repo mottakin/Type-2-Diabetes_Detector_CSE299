@@ -50,7 +50,7 @@ public class PredictorActivity extends AppCompatActivity {
         String pregnant = pregnantEditText.getText().toString().trim();
         String key = databaseReference.push().getKey();
         People people = new People(age,bmi,glucose,bp,skin,insulin,diabetes,pregnant);
-        databaseReference.child(key).setValue(people);
+        databaseReference.child("User").child(key).setValue(people);
         Toast.makeText(getApplicationContext(),"Data Saved Successfully",Toast.LENGTH_LONG).show();
     }
 }

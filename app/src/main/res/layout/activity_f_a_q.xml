@@ -8,11 +8,17 @@
     android:gravity="center"
     android:orientation="vertical"
     android:padding="50dp">
-    <TextView
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/edit_text_title"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/textview9_text"
-        android:textStyle="bold"
-        android:textSize="20sp" />.
+        android:hint="Title"
+        android:inputType="text"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:onClick="saveNote"/>
 
 </LinearLayout>
